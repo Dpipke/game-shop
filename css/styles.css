@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Roboto, 'serif-sans';
+    font-weight: 400;
+}
+img{
+    max-width: 100%;
+}
+a{
+    color: white;
+}
+/* header */
+header{
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.div-header{
+    display: flex;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 5vh 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-logo{
+    display: flex; 
+    align-items: center;
+}
+h1, h5{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+h1 span, h5 span{
+    color: rgba(208, 20, 24, 1)
+}
+nav, .cart{
+    display: none;
+}
+.burger{
+    color: white;
+    font-size: 30px;
+}
+
+/* main */
+.heroe{
+    background: rgba(34, 34, 34, 1) url(../images/heroe-background.png);
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+.heroe h2{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10vh;
+}
+.buy-btn{
+    padding: 1vh 5vw;
+    background: rgba(208, 20, 24, 1);
+    margin-bottom: 10vh;
+}
+.discount{
+    color: rgba(208, 20, 24, 1);
+
+}
+section{
+    background-color: rgba(240, 240, 240, 1);
+}
+.featured-products-div, .star-products-div{
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+h3{
+    font-size: 30px;
+    padding: 5vh;
+}
+.card{
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5%;
+}
+.card, .featured-products, .buy-btn{
+    border-radius: 5px;
+
+}
+.card img{
+    padding: 2vh 4vw;
+    width: auto;
+}
+.price-div{
+    padding: 3vh 5vw;
+}
+.free-shipping{
+    color: rgba(97, 157, 0, 1);
+
+}
+.featured-products{
+    width: 60vw;
+    text-align: right;
+    margin-bottom: 3vh;
+}
+.featured-1{
+    background:rgba(208, 20, 24, 1) url(../images/banner-chairs.png) ;
+    background-size: cover;
+
+}
+.featured-2{
+    background:rgba(208, 20, 24, 1) url(../images/banner-computers.png);
+    background-size: cover;
+
+}
+.featured-products h4{
+    padding: 5vh 0;
+    color: white;
+}
+/* footer */
+footer{
+    background-color: rgba(34, 34, 34, 1);
+
+}
+.top-footer{
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh 0;
+}
+.bottom-footer{
+    background-color: rgba(196, 196, 196, 1);
+    text-align: center;
+} 
+.rrss{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+}
+.tw{
+    color: rgba(20, 174, 208, 1);
+}
+.fb{
+    color: rgba(20, 118, 208, 1);
+}
+.ig{
+    color: rgba(206, 12, 255, 1);
+}
+@media screen and (min-width: 720px){
+    
+    nav ul{
+        display: flex;
+    }
+    
+    nav ul li{
+        color: white;
+        font-weight: 700;
+    }
+    .burger{
+        display: none;
+    }
+    nav, .cart{
+        display: inline-block;
+    }
+    .cart{
+        color: rgba(208, 20, 24, 1);
+        font-size: 16px;
+    }
+
+    /* main */
+    .featured-products{
+        width: 40vw;
+    }
+}
+

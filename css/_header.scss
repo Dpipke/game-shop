@@ -1,0 +1,63 @@
+header{
+    background-color: $bg-color;
+}
+
+.div-header{
+    display: flex;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 5vh 0;
+    justify-content: space-between;
+    align-items: center;
+    @media (min-width:$breakpoint-mobile){
+        max-width: 90%;
+    }
+}
+
+.div-logo{
+    display: flex; 
+    align-items: center;
+}
+
+h1{
+    font-size: 30px;
+    margin-left: 3%;
+    font-weight: $bold-font-weight;
+    color: $secondary-color;
+}
+h1 span, h5 span{
+    color: $principal-color
+}
+nav, .cart{
+    display: none;
+    @media (min-width:$breakpoint-mobile){
+        display: inline-block;
+    }
+}
+nav{
+    margin-left: 50%;
+}
+.cart{
+    color: rgba(208, 20, 24, 1);
+    font-size: 16px;
+}
+.burger{
+    color: $secondary-color;
+    font-size: 30px;
+    @media (min-width:$breakpoint-mobile){
+        display: none;
+    }
+}
+nav ul{
+    @media (min-width:$breakpoint-mobile){
+        display: flex;
+    }
+}
+
+nav ul li{
+    @media (min-width:$breakpoint-mobile){
+        color: white;
+        font-weight: 700;
+        margin-left: 5%;
+    }
+}

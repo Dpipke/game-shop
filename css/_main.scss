@@ -1,0 +1,124 @@
+.heroe{
+    background: $bg-color url(../images/heroe-background.png);
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    box-sizing: content-box;
+    @media (min-width:$breakpoint-mobile){
+        height: 512px;
+        justify-content: center;
+    }
+    
+}
+
+.heroe h2{
+    color: $secondary-color;
+    font-size: 2.5em;
+    font-weight: $bold-font-weight;
+    text-align: center;
+    margin-top: 10vh;
+    width: 90vw;
+    @media (min-width:$breakpoint-mobile){
+        margin-top: 12vh;
+    }
+}
+.buy-btn{
+    padding: 15px 60px;
+    background: $principal-color;
+    margin-bottom: 15%;
+    margin-top: 7%;
+    @media (min-width:$breakpoint-mobile){
+        margin-top: 3%;
+    }
+}
+.discount{
+    color: $principal-color;
+
+}
+section{
+    background-color: rgba(240, 240, 240, 1);
+}
+.featured-products-div, .star-products-div{
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    @media (min-width:$breakpoint-mobile){
+        flex-flow: row;
+    }
+}
+h3{
+    font-size: 30px;
+    padding: 8% 0;
+    text-align: center;
+    @media (min-width:$breakpoint-mobile){
+        padding: 3% 0;
+    }
+}
+.cards-div{
+    @media (min-width:$breakpoint-mobile){
+        display: flex;
+        align-items: center;
+    }
+}
+.card{
+    background-color: $secondary-color;
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 15%;
+}
+.card, .featured-products, .buy-btn{
+    border-radius: 5px;
+
+}
+.card img{
+    padding: 15% 17%;
+    width: auto;
+    @media (min-width:$breakpoint-mobile){
+        padding: 20% 23%;
+    }
+}
+.price-div{
+    padding: 3vh 5vw;
+    @media (min-width:$breakpoint-mobile){
+        padding: 2vh 4vw;
+    }
+}
+.price-div h4{
+    font-size: 20px;
+}
+.price-div p{
+    font-size: 13px;
+}
+.free-shipping{
+    color: rgba(97, 157, 0, 1);
+
+}
+.featured-products{
+    width: 288px;
+    text-align: right;
+    margin-bottom: 3vh;
+    height: 108px;
+    box-sizing: content-box;
+    @media (min-width:$breakpoint-mobile){
+        width: 30vw;
+        
+    }
+}
+.featured-1{
+    background:$principal-color url(../images/banner-chairs.png) ;
+    background-size: cover;
+
+}
+.featured-2{
+    background:$principal-color url(../images/banner-computers.png);
+    background-size: cover;
+
+}
+.featured-products h4{
+    padding: calc(54px - 15px) 30px;
+    color: $secondary-color;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$principal-color:  rgba(208, 20, 24, 1);
+$secondary-color: white;
+$bg-color: rgba(34, 34, 34, 1);
+$light-font-weight: 400;
+$bold-font-weight: 700;
+$breakpoint-mobile: 768px;
+
+// aca arriba van variables
+@import "_base.scss";
+@import "_header.scss";
+@import "_main.scss";
+@import "_footer.scss";
+

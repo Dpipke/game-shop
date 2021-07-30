@@ -5,4 +5,4 @@ Proyecto de la materia FrontEnd I de la carrera Certified Tech Developer de Digi
  https://dpipke.github.io/game-shop/
 
 ## Languages
-HTML, CSS
+HTML, CSS, SASS
